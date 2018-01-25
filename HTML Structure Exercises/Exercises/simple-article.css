@@ -1,0 +1,36 @@
+img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 15px;
+    border: 5px dotted #8b603d;
+    float: left;
+}
+
+h1 {
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+article{
+    width: 550px;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 25px;
+    background: #fafafa;
+    box-shadow: 10px 11px 35px -14px rgba(0,0,0,0.54);
+}
+p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+body{
+    font-family: Lato, sans-serif;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+}
