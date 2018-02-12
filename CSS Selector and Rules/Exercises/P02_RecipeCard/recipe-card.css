@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Lato',sans-serif;
+    color: #fff;
+}
+main{
+    background: url("images/food-image-bg.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    padding-top: 3%;
+    padding-left: 19%;
+}
+
+div{
+    margin-left: 16%;
+    position: absolute;
+    margin-top: -60px;
+}
+
+.recipies-info p{
+    display: inline-block;
+    padding-right: 23px;
+}
+
+.recipies-info span{
+    color: #b5c640;
+}
+
+.btn-primary{
+    margin-left: 28%;
+    color: white;
+    background: none;
+    width: 163px;
+    height: 47px;
+    border: 2px solid;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #B5C640;
+    border: none;
+}
+
+.step{
+    margin-left: 41%;
+    margin-right: 25px;
+    list-style: none;
+    padding-top: 17px;
+}
+
