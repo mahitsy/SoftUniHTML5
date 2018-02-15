@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+}
+
+body{
+    background-color: #666666;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #E67C1F;
+}
+
+.nav{
+    text-align: center;
+    height: 2rem;
+}
+
+li{
+    display: inline-block;
+    position: relative;
+    padding: 6px 6px 10px;
+    margin-bottom: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li:hover{
+    background-color: #1d211e;
+    box-shadow: 2px 2px 2px 2px #1d211e;
+}
+
+.drop-down1, .drop-down2{
+    position: absolute;
+    display: none;
+}
+
+.padding{
+    padding: 14px;
+}
+
+.padding1{
+    padding: 14px 30px;
+}
+
+li:hover .drop-down1 {
+    display: block;
+    background-color: #E67C1F;
+    margin-top: 10%;
+}
+
+.down:hover .drop-down2{
+    display: block;
+}
+
+.drop-down2{
+    background-color: #E67C1F;
+    margin-left: 85%;
+    margin-top: -25%;
+}
