@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUuhp.woff2) format('woff2');
+}
+
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #567788 0%, #121f25 100%) no-repeat center center;;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+nav {
+    background-color: #EFF4F7;
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 2%;
+    height: 3rem;
+    position: absolute;
+    z-index: 1;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    padding: 1% 0.8rem 0.8rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ACB0B6;
+    font-size: 1.06rem;
+}
+
+div {
+    background-color: #EA3D51;
+    width: 11%;
+    position: relative;
+    left: 35%;
+    height: 6.5rem;
+    top: 1rem;
+}
+
+span {
+    color: #fff;
+    top: 4rem;
+    position: relative;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 30%;
+}
+
+main {
+    background-color: #CCD0D9;
+    width: 92%;
+    left: 4%;
+    position: relative;
+    top: 3rem;
+    height: 78%
+}
+
+main > h2 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 3%;
+    left: 36%;
+    font-size: 2.4rem;
+    color: #121F25;
+    z-index: 1;
+}
+
+h1 {
+    color: #6DFFB8;
+    font-size: 4rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 46%;
+    top: 1rem;
+}
+
+article {
+    background-color: #E92C56;
+    width: 24%;
+    position: relative;
+    left: 44%;
+    top: 6rem;
+    height: 60%;
+    z-index: 1;
+}
+
+img {
+    max-width: 60px;
+    border-radius: 50%;
+    width: 100%;
+    margin-left: 39%;
+    margin-top: 6%;
+}
+
+.stars {
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.content {
+    color: white;
+    text-align: justify;
+    padding: 1.3rem;
+}
+
+.content:before {
+    content: '"';
+    color: #B0213F;
+    font-size: 1.4rem;
+}
+
+.content:after {
+    content: '"';
+    color: #B0213F;
+    font-size: 1.4rem;
+}
+
+article > button {
+    background: none;
+    width: 6rem;
+    border: 2px solid #A1D5F2;
+    margin-left: 33%;
+    margin-bottom: 6%;
+    padding: 0.4rem;
+}
+
+article > button a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+section {
+    background-color: #FFFFFF;
+    width: 90%;
+    position: relative;
+    left: 3%;
+    height: 48%;
+    bottom: 12%;
+}
+
+section > h2 {
+    color: #6DFFB8;
+    font-size: 2rem;
+    padding-top: 10%;
+    padding-left: 1%;
+}
+
+section > p {
+    width: 76%;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+section > button {
+    background: no-repeat;
+    border: 2px solid #738791;
+    width: 10%;
+    height: 2rem;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+section > button a {
+    text-decoration: none;
+    color: #675062;
+    font-weight: 100;
+}
+
+section > button:hover {
+    color: #7FDDBB;
+    cursor: pointer;
+    background-color: #675062;
+    border: 2px solid #675062;
+}
+
+section > button:hover a {
+    color: #7FDDBB;
+}
+
+article button:hover {
+    background-color: #7FDDBB;
+}
+
+article button:hover a{
+    color: #3DA3BD;
+}
