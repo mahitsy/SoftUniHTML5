@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Vollkorn;
+    src: url('fonts/Vollkorn-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #778495;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: Vollkorn, serif;
+    font-size: 40px;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    margin-left: 1.5%;
+    width: 30%;
+    border: 1px solid #E9E9EB;
+    height: 595px;
+}
+
+h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: Vollkorn, serif;
+    background-color: #EBEFF2;
+    margin: 0 auto;
+    padding: 22px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    font-family: Vollkorn, serif;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+    padding-left: 12px;
+}
+
+li {
+    border-bottom: 1px solid #E9E9EB;
+    padding: 7px;
+    margin-bottom: 17px;
+}
+
+button {
+    width: 82%;
+    height: 50px;
+    text-transform: capitalize;
+    background: #DDDDDD;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 9%;
+
+}
+
+#first {
+    top: 9.34rem;
+}
+
+#second {
+    top: 6.3rem;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+article:hover{
+    cursor: pointer;
+
+}
+
+article:hover h3, article:hover button{
+    background-color: #65D3E2;
+    cursor: pointer;
+}
+
+article:hover h2{
+    color: #65D3E2;
+}
