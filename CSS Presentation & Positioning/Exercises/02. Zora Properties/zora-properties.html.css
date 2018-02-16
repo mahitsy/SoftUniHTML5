@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+aside {
+    float: left;
+    height: 100%;
+    width: 17%;
+    background-color: #ffffff;
+    color: #BECAD7;
+}
+
+aside h1 {
+    text-align: center;
+    color: #000;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.6rem;
+    padding: 12%;
+}
+
+aside img {
+    width: 63%;
+    border-radius: 50%;
+    margin-left: 18%;
+}
+
+aside p {
+    text-transform: uppercase;
+    margin-left: 33%;
+    margin-top: 7%;
+    font-size: 1.2em;
+}
+
+li {
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 0.9em;
+    margin: 9% 9% 9% 15%;
+}
+
+aside figcaption, li a {
+    text-decoration: none;
+    color: #BECAD7;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    font-variant: small-caps;
+    font-family: "Open Sans", sans-serif;
+}
+
+main {
+    background-color: #F4F5F7;
+}
+
+main h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    float: left;
+    padding: 3% 3% 0;
+}
+
+span {
+    color: #A2B3BE;
+}
+
+.upper button {
+    float: right;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #FF7739;
+    background-color: #FF7739;
+    color: #F4F5F7;
+    padding: 8px 18px;
+    border-radius: 20px;
+    margin: 3%;
+}
+
+section {
+    height: 18rem;
+}
+
+#top {
+    padding-top: 7rem;
+}
+
+#bot{
+    margin-top: 10%;
+}
+
+.properties {
+    display: inline-block;
+    box-shadow: 8px 6px 17px -1px rgba(0, 0, 0, 0.26);
+    height: 106%;
+    width: 20%;
+    margin: 1% 1% 1% 4%;
+}
+
+.properties img {
+    padding-top: 15%;
+    width: 100%;
+}
+
+.listed {
+    background-color: #67BC69;
+    color: white;
+
+}
+
+section p {
+    text-transform: capitalize;
+    margin: 1% 1% 1% 7%;
+}
+
+section button {
+
+    text-transform: uppercase;
+    padding: 2%;
+    border: none;
+    width: 26%;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 8rem;
+    right: 2rem;
+}
+
+.rented, .draft {
+    background-color: #B8C5CD;
+    color: white;
+
+}
+
+.name {
+    text-transform: capitalize;
+    margin-left: 19rem;
+}
+
+.address {
+    text-transform: uppercase;
+    margin-left: 19rem;
+}
+
+.upper button:hover{
+    background: none;
+    cursor: pointer;
+    color: #FF7739;
+}
+
+nav li:hover{
+    padding-left: 18px;
+    border-left: 2px solid #FF7739;
+}
+
+nav li:hover a {
+    color: #3F4744;
+}
