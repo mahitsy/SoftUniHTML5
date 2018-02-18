@@ -1,0 +1,74 @@
+@font-face {
+    src: url("fonts/Lemon-Regular.ttf");
+    font-family: 'Lemon Regular';
+}
+
+body {
+    background-color: #602D75
+}
+
+main {
+    font-family: "Lemon Regular", Arial, sans-serif;
+    background-color: #FFAE32;
+    width: 900px;
+    margin: 10% auto 0;
+    border-radius: 2rem;
+}
+
+article {
+    background-color: #5F2056;
+    display: inline-block;
+    width: 220px;
+    border-radius: 3rem 1rem 3rem 1rem;
+    margin: 0 4% 4%;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 22px;
+    text-align: center;
+    color: white
+}
+
+p, button {
+    font-size: 15px;
+    color: white;
+    margin-left: 10%;
+}
+
+p:nth-child(2) {
+    color: #FFC350;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+img {
+    width: 12rem;
+    border-radius: 50%;
+    margin-left: 4%;
+    border: 5px solid #806671;
+}
+
+img:hover{
+    border: 5px solid #FA4F00;
+    cursor: pointer;
+}
+
+button{
+    width: 80%;
+    color: #9E4AFF;
+    border-radius: 1rem;
+    background-color: white;
+    margin-bottom: 8%;
+    font-family: "Lemon Regular",Arial;
+}
+
+button:hover{
+    color: #000;
+    cursor: pointer;
+}
