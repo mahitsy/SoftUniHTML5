@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+    background: #927057;
+    color: #ffffff;
+    padding: 20px;
+}
+
+main {
+    background: #d5c395;
+    width: 470px;
+    margin: 50px auto 0;
+    Padding: 50px 60px 70px 60px;
+}
+
+main::before {
+    position: absolute;
+    top: 24.5%;
+    background: url(images/triangle.png) no-repeat 0 0;
+    display: block;
+    height: 35px;
+    width: 68px;
+    content: " ";
+    left: 47.5%;
+}
+
+footer {
+    font-size: 1em;
+    color: #EFE1C4;
+    text-align: center;
+}
+
+div.image-container {
+    text-align: center;
+}
+
+div>img {
+    border: 5px solid #d5c395;
+    height: 123px;
+}
+
+input[type=text], input[type=password] {
+    outline: none;
+    border: none;
+    background-color: #efe1c4;
+    padding: 10px 10px 10px 60px;
+    width: 85%;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+input::placeholder {
+    color: #927057;
+}
+
+input[type=submit] {
+    outline: none;
+    border: none;
+    background-color: #927057;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    font-size: 1.5em;
+    color: #d5c395;
+    border-radius: 5px;
+}
+.pass-user img{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: none;
+    left: 15px;
+    top: 36px;
+}
