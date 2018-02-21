@@ -1,0 +1,138 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px Tahoma, Helvetica, sans-serif;
+    background: #EBEBEB;
+}
+
+#information, h1, form {
+    border-bottom: 2px dotted #DCDCDC;
+}
+
+h1 {
+    background-color: #F1F1F1;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 28px;
+    font-weight: lighter;
+    color: #39A3E5;
+    padding: 2% 2% 2% 1%;
+}
+
+main {
+    width: 83%;
+    margin: 0 auto;
+}
+
+#information {
+    height: 7.5rem;
+}
+
+h3 {
+    padding-top: 1rem;
+    font-size: 18px;
+}
+
+#information h3 {
+    padding-top: 2rem;
+    padding-bottom: 0.9rem;
+}
+
+#information p {
+    width: 67%;
+    float: left;
+}
+
+#search-label {
+    overflow: hidden;
+    width: 12%;
+    position: relative;
+    left: -1%;
+    bottom: 3%;
+    float: right;
+
+}
+
+.fa {
+    position: absolute;
+    top: 1.4rem;
+    left: 90%;
+
+}
+
+input, select {
+    box-sizing: border-box;
+    height: 25px;
+    padding: 0 5px;
+    margin: 5px 0;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+}
+
+div {
+    display: inline-block;
+    margin-left: 6%;
+    vertical-align: top;
+}
+
+#details {
+    margin-left: 0;
+    width: 30%;
+}
+
+input {
+    padding: 2%;
+    margin: 2%;
+    display: block;
+}
+
+#reservation-info {
+    width: 63%;
+}
+
+#reservation-info label {
+    display: inline-block;
+}
+
+#room {
+    width: 24rem;
+}
+
+#number {
+    width: 15rem;
+}
+
+#check-in, #check-out {
+    width: 14rem;
+}
+
+#label-room {
+    display: block;
+    position: absolute;
+}
+
+button {
+    float: right;
+    margin-top: 20px;
+    background-color: #32A2E4;
+    border-radius: 5px;
+    padding: 6px 25px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover {
+    background-color: #3BBC96;
+    cursor: pointer;
+}
+
+
+
+
+
