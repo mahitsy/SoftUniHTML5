@@ -1,0 +1,135 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #EEEEEE;
+}
+
+body {
+    width: 800px;
+    margin: 2% auto 0;
+    background-color: white;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    width: 93%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #CECECE;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    font-size: 24px;
+    padding: 1.5rem;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+main {
+    width: 87%;
+    margin: 0 auto;
+}
+
+div {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+label, input {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.4em;
+    width: 15rem;
+}
+
+input {
+    border: 1px solid #D9D9D9;
+    height: 24px;
+    border-radius: 5px;
+}
+
+input[placeholder] {
+    padding-left: 7%;
+    outline: none;
+}
+
+input[type=checkbox] {
+    width: 7%;
+    height: 1rem;
+    position: absolute;
+    left: 23.8rem;
+    bottom: 19.5rem;
+    outline: none;
+}
+
+#checkbox-label {
+    float: right;
+    font-size: 10px;
+    width: 89%;
+    color: #A0A8AF;
+}
+
+button {
+    background-color: #F0F0F0;
+    color: #222;
+    font-weight: bolder;
+    display: block;
+    padding: 8px 25px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #AFDF67;
+    cursor: pointer;
+}
+
+#bottom-button {
+    margin-bottom: 1rem;
+    margin-top: 3.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    margin-top: 0.7rem
+}
+
+.tick,
+.cross{
+    position: relative;
+}
+
+.tick::after,
+.cross::after {
+    font-family: FontAwesome;
+    font-size: 20px;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    color: white;
+    padding: 3px;
+}
+
+.cross::after {
+    content: '\f00d';
+    background-color: #FD0400;
+}
+
+.tick::after {
+    content: '\f00c';
+    background-color: #00FF01;
+}
