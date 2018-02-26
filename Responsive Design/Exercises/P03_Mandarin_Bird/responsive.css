@@ -1,0 +1,44 @@
+@media all and (max-width: 1200px) {
+    #wrapper, header, main {
+        width: 90%;
+        background-repeat: round;
+        background-size: cover;
+    }
+
+    header nav > ul li {
+        width: 20%;
+    }
+
+    main section, main aside {
+        float: none;
+        width: 90%;
+    }
+
+    main > aside > article{
+        margin-right: 0;
+    }
+
+    footer p{
+        margin-left: 0;
+        text-align: center;
+    }
+
+}
+
+@media all and (max-width: 730px) {
+    header nav > ul li{
+        width: 100%;
+    }
+
+    main section > div{
+        height: 300px;
+    }
+
+    main section > div div{
+        float: none;
+        display: block;
+        text-align: center;
+        background-color: #BACD8B;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,37 @@
+@media screen and (max-width: 740px) {
+
+    #wrapper {
+        padding-left: 25px;
+    }
+
+    #info, #photo, h2 {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    p {
+        padding-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+
+    #skills-right, #skills-left {
+        float: none;
+    }
+
+   ul li{
+        padding-left: 20px;
+        width: 35%;
+       background-position-x: 0px;
+       display: inline-block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #skills-right>ul>li:nth-child(2){
+        width: 45%;
+    }
+}
