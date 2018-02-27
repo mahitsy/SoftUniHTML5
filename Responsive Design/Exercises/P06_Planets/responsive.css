@@ -1,1 +1,69 @@
-﻿/*TODO*/
+﻿@media all and (max-width: 1000px) {
+
+    #wrapper {
+        width: 100%;
+        height: auto;
+    }
+
+    #logoarea, #header-area-right,
+    #menu, #search-form {
+        float: none;
+    }
+
+    #logoarea, #menu {
+        display: block;
+    }
+
+    header {
+        height: auto;
+    }
+
+    #header-area-right {
+        padding: 0;
+    }
+
+    #search-form {
+        width: 260px;
+        margin-top: 10px;
+    }
+
+    section.contentblock, #wrapper, body {
+        min-width: 0;
+    }
+
+    #publicphotos {
+        width: calc(100% - 35px);
+    }
+
+    #publicphotos h1 {
+        text-align: center;
+    }
+
+    #p-albums-items {
+        justify-content: center;
+    }
+
+    footer {
+        min-width: 0;
+    }
+}
+
+@media all and (max-width: 756px) {
+    #nav-menu li, #nav-menu li a {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 3px;
+    }
+
+    #header-area-right {
+        width: 100%;
+    }
+
+    #nav-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    #search-form {
+        width: 65%;
+    }
+}
