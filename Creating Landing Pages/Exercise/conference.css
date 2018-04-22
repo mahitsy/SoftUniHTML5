@@ -66,7 +66,7 @@ h1 {
 
 #header-icon {
     position: absolute;
-    left: 69%;
+    left: 64%;
     bottom: 52%;
 }
 
@@ -80,6 +80,7 @@ h1 {
     margin-top: 5%;
 }
 
+
 #header-info article {
     width: 22%;
     margin-top: 7%;
@@ -87,15 +88,6 @@ h1 {
     padding-bottom: 5%;
     margin-left: 3%;
     border-bottom: 0.7rem solid transparent;
-}
-
-.icon {
-    padding-bottom: 17%;
-}
-
-#header-info article:hover {
-    cursor: pointer;
-    border-bottom: 0.7rem solid #F96A2F;
 }
 
 #words {
@@ -160,6 +152,7 @@ h1 {
     background-color: #3C3E4A;
     color: white;
 }
+
 
 #schedule i {
     background-color: #FA692F;
@@ -317,4 +310,13 @@ footer p {
     color: #87888C;
     padding-right: 3%;
     padding-top: 2%;
+}
+
+.icon {
+    padding-bottom: 17%;
+}
+
+#header-info article:hover {
+    cursor: pointer;
+    border-bottom: 0.7rem solid #F96A2F;
 }
